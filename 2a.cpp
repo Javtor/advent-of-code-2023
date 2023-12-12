@@ -24,7 +24,6 @@ void solve(){
       int n;cin>>n;
       string who;cin>>who;
       bool cont = who[SZ(who)-1] == ','||who[SZ(who)-1] == ';';
-      
 
       if(cont) who = who.substr(0,SZ(who)-1);
 
